@@ -143,3 +143,32 @@ div.fadeIn{
     }
 }
 
+
+
+
+@media screen and (max-width:360px) {
+        .game{        
+            padding: 1vh;
+        }
+          
+        .score h2{
+            font-size: 20px;
+        }
+
+        .score p{
+             text-align: center;
+             padding: 5px;
+             font-size: 15px;
+        }
+        .intro h1{
+            font-size: 30px;
+        }
+        .winner{
+            font-size: 30px;
+        }
+        .hands, 
+        .options{
+            padding: 20px;
+        }        
+}
+
