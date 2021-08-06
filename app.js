@@ -67,17 +67,17 @@ const game = ()=>{
         //Update text
         const winner = document.querySelector(".winner");
         if(playerChoice === computerChoice){
-            winner.textContent = "Empate!";
+            winner.textContent = "Empate";
             return;//Termina la funcion
         }
         if(playerChoice === "rock"){
             if(computerChoice === "scissors"){
-                winner.textContent = "Gana el jugador!";
+                winner.textContent = "Ganaste!";
                 pScore++;
                 updateScore();
                 return;
             }else{
-                winner.textContent = "Gana la compu!";
+                winner.textContent = "Gana la compu :(";
                 cScore++;
                 updateScore();
                 return;
@@ -86,12 +86,12 @@ const game = ()=>{
         }
         if(playerChoice === "paper"){
             if(computerChoice === "scissors"){
-                winner.textContent = "Gana la compu!";
+                winner.textContent = "Gana la compu ;(";
                 cScore++;
                 updateScore();
                 return;
             }else{
-                winner.textContent = "Gana el jugador!";
+                winner.textContent = "Ganaste!";
                 pScore++;
                 updateScore();
                 return;
@@ -100,12 +100,12 @@ const game = ()=>{
         }
         if(playerChoice === "scissors"){
             if(computerChoice === "rock"){
-                winner.textContent = "Gana la compu!";
+                winner.textContent = "Gana la compu :(";
                 cScore++;
                 updateScore();
                 return;
             }else{
-                winner.textContent = "Gana el jugador!";
+                winner.textContent = "Ganaste!";
                 pScore++;
                 updateScore();
                 return;
