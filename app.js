@@ -77,7 +77,7 @@ const game = ()=>{
                 updateScore();
                 return;
             }else{
-                winner.textContent = "Gana la compu :(";
+                winner.textContent = "Gana el celu :(";
                 cScore++;
                 updateScore();
                 return;
@@ -86,7 +86,7 @@ const game = ()=>{
         }
         if(playerChoice === "paper"){
             if(computerChoice === "scissors"){
-                winner.textContent = "Gana la compu ;(";
+                winner.textContent = "Gana el celu :(";
                 cScore++;
                 updateScore();
                 return;
@@ -100,7 +100,7 @@ const game = ()=>{
         }
         if(playerChoice === "scissors"){
             if(computerChoice === "rock"){
-                winner.textContent = "Gana la compu :(";
+                winner.textContent = "Gana el celu :(";
                 cScore++;
                 updateScore();
                 return;
