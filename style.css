@@ -150,7 +150,6 @@ div.fadeIn{
         .game{        
             padding: 1vh;
         }
-          
         .score h2{
             font-size: 20px;
         }
@@ -159,6 +158,7 @@ div.fadeIn{
              text-align: center;
              padding: 5px;
              font-size: 15px;
+             margin:5px;
         }
         .intro h1{
             font-size: 30px;
